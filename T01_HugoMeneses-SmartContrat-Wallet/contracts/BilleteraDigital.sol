@@ -24,7 +24,7 @@ contract BilleteraDigital{
               to.transfer(amount);
               return;
             }
-            revert("Sender is not allowed");
+            revert("Esta cuenta no puede enviar dinero");
           }
 
           //Función obtener el balance de la billetera
